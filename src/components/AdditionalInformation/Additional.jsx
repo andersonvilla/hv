@@ -3,8 +3,8 @@ import React from 'react'
 const Additional = () => {
     return (
       <div>
-          <hr/>
-          <h3>Hobbies</h3>
+          <hr className='border-1 border-[#57C8B4] w-full'/>
+          <h3 className='font-semibold text-[#57C8B4]'>Hobbies</h3>
           <ul>
               <li>Jugar Pokémon</li>
               <li>Cine Independiente</li>
@@ -12,7 +12,7 @@ const Additional = () => {
               <li>Arte</li>
           </ul>
           <hr/>
-          <h3>Cursos y Certificaciones</h3>
+          <h3 className='font-semibold text-[#57C8B4]'>Cursos y Certificaciones</h3>
           <ul>
               <li>Bash - Intérprete de Comandos de Linux</li>
               <li>Fundamentos de Programación con Java</li>
