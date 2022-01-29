@@ -3,11 +3,10 @@ import React from "react";
 const Profile = () => {
   return (
     <div className="justify-center">
-      <div className="m-4">
         <h1 className="font-bold text-[#57C8B4] text-center">
           Descripción del Perfil
         </h1>
-        <div className="md:grid md:grid-cols-2 md:grid-rows-1">
+        <div className="md:grid md:grid-cols-2 lg:grid-cols-1">
           <div>
             <h3 className="font-semibold text-[#57C8B4] text-center">
               Resumen Profesional
@@ -24,7 +23,7 @@ const Profile = () => {
           <div>
             <h3 className="font-semibold text-[#57C8B4] text-center">Skills</h3>
             <div>
-              <ul className="list-disc list-inside m-3 md:ml-10">
+              <ul className="list-disc list-inside m-3 md:ml-10 grid grid-cols-2">
                 <li>Java</li>
                 <li>SprintBoot</li>
                 <li>Investigación</li>
@@ -36,14 +35,13 @@ const Profile = () => {
             <hr className="border-1 border-[#57C8B4] w-full md:hidden" />
             <h3 className="font-semibold text-[#57C8B4] text-center">Idiomas</h3>
             <div>
-              <ul className="list-disc list-inside m-3 md:ml-10">
+              <ul className="list-disc list-inside m-3 md:ml-10 grid grid-cols-2">
                 <li>Español nativo</li>
                 <li>Inglés avanzado</li>
               </ul>
             </div>
           </div>
         </div>
-      </div>
     </div>
   );
 };

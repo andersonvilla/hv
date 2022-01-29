@@ -3,11 +3,11 @@ import React from 'react'
 const Additional = () => {
     return (
       <div className='justify-center '>
-          <hr className='border-1 border-[#57C8B4] w-full'/>
-          <div className='md:grid md:grid-rows-1 md:grid-cols-2'>
+          <hr className='border-1 border-[#57C8B4] w-full lg:hidden'/>
+          <div className='md:grid md:grid-cols-2'>
             <div>
                 <h3 className='font-semibold text-[#57C8B4] text-center'>Hobbies</h3>
-                <ul className='list-disc list-inside m-3'>
+                <ul className='list-disc list-inside m-3 grid grid-cols-2 '>
                     <li>Jugar Pokémon</li>
                     <li>Cine Independiente</li>
                     <li>Escuchar música</li>
@@ -17,7 +17,7 @@ const Additional = () => {
             <hr className='md:hidden'/>
             <div>
                 <h3 className='font-semibold text-[#57C8B4] text-center'>Cursos y Certificaciones</h3>
-                <ul className='list-disc list-inside m-3'>
+                <ul className='list-disc list-inside m-3 '>
                     <li>Bash - Intérprete de Comandos de Linux</li>
                     <li>Fundamentos de Programación con Java</li>
                     <li>Version Control with Git</li>
