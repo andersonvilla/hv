@@ -478,12 +478,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   display: flex;
 }
 
-.w-4\/12 {
-  width: 33.333333%;
-}
-
 .w-full {
   width: 100%;
+}
+
+.w-4\/12 {
+  width: 33.333333%;
 }
 
 .list-inside {
@@ -538,12 +538,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.25rem;
 }
 
-.font-bold {
-  font-weight: 700;
-}
-
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-\[\#57C8B4\] {

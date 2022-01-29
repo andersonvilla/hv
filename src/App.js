@@ -12,8 +12,10 @@ function App() {
     <div>
       <Header/>
       <Profile/>
-      <Academic/>
-      <Experience/>
+      <div className='md:grid md:grid-cols-2'>
+        <Academic/>
+        <Experience/>
+      </div>
       <Additional/>
       <Footer/>
     </div>
