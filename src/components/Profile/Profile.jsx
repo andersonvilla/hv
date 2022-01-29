@@ -2,11 +2,11 @@ import React from "react";
 
 const Profile = () => {
   return (
-    <div className="justify-center">
+    <div className="justify-center m-4">
         <h1 className="font-bold text-[#57C8B4] text-center">
           Descripción del Perfil
         </h1>
-        <div className="md:grid md:grid-cols-2 lg:grid-cols-1">
+        <div className="md:grid md:grid-cols-1 lg:grid-cols-1">
           <div>
             <h3 className="font-semibold text-[#57C8B4] text-center">
               Resumen Profesional

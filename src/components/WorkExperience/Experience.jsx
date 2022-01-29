@@ -2,8 +2,8 @@ import React from 'react'
 
 const Experience = () => {
     return (
-      <div className='justify-center'> 
-        <hr className='border-1 border-[#57C8B4] w-full lg:hidden'/>
+      <div className='justify-center m-4 '>
+        <hr className='border-1 border-[#57C8B4] w-full lg:hidden md:hidden'/>
         <h3 className='font-semibold text-[#57C8B4] text-center'>Experiencia Laboral</h3>
         <div className='m-3'>
         <h3 className='font-bold'>Bancolombia| Agosto 2021 - Octubre 2021</h3>

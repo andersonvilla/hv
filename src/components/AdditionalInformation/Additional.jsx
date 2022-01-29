@@ -2,9 +2,9 @@ import React from 'react'
 
 const Additional = () => {
     return (
-      <div className='justify-center '>
-          <hr className='border-1 border-[#57C8B4] w-full lg:hidden'/>
-          <div className='md:grid md:grid-cols-2'>
+      <div className='justify-center m-4 '>
+          <hr className='border-1 border-[#57C8B4] w-full lg:hidden md:hidden'/>
+          <div className='md:grid md:grid-cols-1 lg:grid-cols-1'>
             <div>
                 <h3 className='font-semibold text-[#57C8B4] text-center'>Hobbies</h3>
                 <ul className='list-disc list-inside m-3 grid grid-cols-2 '>
@@ -14,7 +14,7 @@ const Additional = () => {
                     <li>Arte</li>
                 </ul>
             </div>
-            <hr className='md:hidden'/>
+            <hr className='border-1 border-[#57C8B4] w-full lg:hidden md:hidden'/>
             <div>
                 <h3 className='font-semibold text-[#57C8B4] text-center'>Cursos y Certificaciones</h3>
                 <ul className='list-disc list-inside m-3 '>

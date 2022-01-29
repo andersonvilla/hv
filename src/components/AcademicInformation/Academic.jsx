@@ -2,8 +2,8 @@ import React from 'react'
 
 const Academic = () => {
     return (
-      <div className='justify-center'>
-        <hr className='border-1 border-[#57C8B4] w-full lg:hidden'/>
+      <div className='justify-center m-4'>
+        <hr className='border-1 border-[#57C8B4] w-full lg:hidden md:hidden'/>
         <h3 className='font-semibold text-[#57C8B4] text-center'>Información Académica</h3>
         <div className='m-3'>
           <h3 className='font-semibold'>Ingeniería de Sistemas| Febrero 2017 - Actualidad</h3>
